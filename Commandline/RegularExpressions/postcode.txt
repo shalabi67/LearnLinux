@@ -1,0 +1,7 @@
+This is text of course not a valid postcode
+Fred is a PO12 1LX
+Jim is at W1A 4XX
+Joe is not at home
+Anne lives at SW199 7AB  not valid zip code
+Sally lives at W11AB 7AS not valid
+Ioana lives at NG1 7AB
