@@ -1,5 +1,6 @@
 #!/bin/bash
-#shows how to access enviromen variables
+#shows how to access arguments
+#shows how shift works
 #my_name=mohammad
 
 echo "$# is the total number of arguments."
