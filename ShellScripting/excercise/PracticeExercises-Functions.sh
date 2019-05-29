@@ -3,6 +3,7 @@
 function file_count() {
     if [[ -d $1 ]]
     then
+        echo "$1:"
         local count=$(ls $1 | wc -l)
         echo $count
     else
@@ -10,4 +11,6 @@ function file_count() {
     fi
 }
 
-file_count
+file_count /etc
+file_count /var
+file_count /usr/bin
