@@ -318,4 +318,31 @@ netplan apply
 ```
 
 
+### lab-pc
+#### configure static ip
+This pc is connected to internal network 1. it is static ip is not configured
+
+#### configure pc3
+```
+bash <<EOF2
+sed -i 's/ubuntu/lab-pc/g' /etc/hostname
+sed -i 's/ubuntu/lap-pc/g' /etc/hosts
+hostname lap-pc
+EOF2
+cat >> /etc/netplan/00-installer-config.yaml << EOF
+  renderer: NetworkManager
+EOF
+netplan apply
+reboot
+```
+
+
+#### support network manager
+To us the `cmcli` you need to use the network manager renderer
+```
+cat >> /etc/netplan/00-installer-config.yaml << EOF
+  renderer: NetworkManager
+EOF
+netplan apply
+```
 
