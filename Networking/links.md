@@ -5,3 +5,4 @@
 ## learning
 [
 Linux Networking and Troubleshooting](https://learn.acloud.guru/course/9233085d-0219-430e-b4ca-4408dee68049/dashboard)
+[Linux Network Configuration](https://learn.acloud.guru/course/linux-network-configuration/overview)
